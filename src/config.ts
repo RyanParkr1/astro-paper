@@ -1,9 +1,9 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
-  author: "Sat Naing",
-  profile: "https://satnaing.dev/",
+  website: "https://ryan-parker.vercel.app/", // replace this with your deployed domain
+  author: "Ryan Parker",
+  profile: "https://ryan-parker.vercel.app/",
   desc: "Personal Blog to share my thoughts.",
   title: "Ryan Parker",
   ogImage: "astropaper-og.jpg",
@@ -57,9 +57,9 @@ export const SOCIALS: SocialObjects = [
     active: true,
   },
   {
-    name: "Twitter",
+    name: "X",
     href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Twitter`,
+    linkTitle: `${SITE.title} on X`,
     active: false,
   },
   {
@@ -145,5 +145,11 @@ export const SOCIALS: SocialObjects = [
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on Mastodon`,
     active: false,
+  },
+   {
+    name: "RSS",
+    href: "https://ryan-parker.vercel.app/rss.xml",
+    linkTitle: `${SITE.title} RSS Feed`,
+    active: true,
   },
 ];
