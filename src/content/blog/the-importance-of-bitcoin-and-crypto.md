@@ -1,5 +1,5 @@
 ---
-author:Ryan Parker
+author: Ryan Parker
 pubDatetime: 2024-01-14T10:25:54.547Z
 title: The Importance of Bitcoin and Crypto
 slug: the-importance-of-bitcoin-and-crypto
