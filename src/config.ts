@@ -4,7 +4,7 @@ export const SITE: Site = {
   website: "https://ryan-parker.vercel.app/", // replace this with your deployed domain
   author: "Ryan Parker",
   profile: "https://ryan-parker.vercel.app/",
-  desc: "Personal Blog to share my thoughts.",
+  desc: "Ryan Parker personal blog.",
   title: "Ryan Parker",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
@@ -28,13 +28,13 @@ export const LOGO_IMAGE = {
 export const SOCIALS: SocialObjects = [
   {
     name: "Github",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://github.com/ryanparkr1",
     linkTitle: ` ${SITE.title} on Github`,
     active: true,
   },
   {
     name: "Facebook",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://facebook.com/ryan.parker.902604",
     linkTitle: `${SITE.title} on Facebook`,
     active: true,
   },
@@ -52,7 +52,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Mail",
-    href: "mailto:yourmail@gmail.com",
+    href: "mailto:ryanparkr1@outlook.com",
     linkTitle: `Send an email to ${SITE.title}`,
     active: true,
   },
