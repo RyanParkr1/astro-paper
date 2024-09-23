@@ -23,12 +23,9 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <p>
-        Personal blog where I publish long form thoughts many different topics.
-      </p>
-      <p>
-        You can find the most recent blog posts below ⬇️
-      </p>
+      <h3>
+        My personal blog where I publish long form thoughts many different topics.
+      </h3>
       {
         // only display if at least one social link is enabled
         socialCount > 0 && (
