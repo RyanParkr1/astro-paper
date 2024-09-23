@@ -1,9 +1,9 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://ryan-parker.vercel.app/", // replace this with your deployed domain
+  website: "https://ryanparkr.com/", // replace this with your deployed domain
   author: "Ryan Parker",
-  profile: "https://ryan-parker.vercel.app/",
+  profile: "https://ryanparkr.com/",
   desc: "Ryan Parker personal blog.",
   title: "Ryan Parker",
   ogImage: "R.jpg",
@@ -52,7 +52,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Mail",
-    href: "mailto:ryanparkr1@outlook.com",
+    href: "mailto:admin@ryanparkr.com",
     linkTitle: `Send an email to ${SITE.title}`,
     active: true,
   },
