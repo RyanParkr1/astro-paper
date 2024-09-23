@@ -6,7 +6,7 @@ export const SITE: Site = {
   profile: "https://ryan-parker.vercel.app/",
   desc: "Ryan Parker personal blog.",
   title: "Ryan Parker",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "R.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 3,
